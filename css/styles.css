@@ -1,2 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/154ebfcef3ca74b92a56a5826ee85d74?family=Sharp+Sans+No1+Bold);
 
+body {
+    font-family: "Sharp Sans No1 Bold";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/bg.jpg');
+}
