@@ -325,3 +325,20 @@ h3 {
     color: #6b6e79;
     font-size: 0.9rem;
 }
+/* delivery html styles */
+.nav {
+    background-color: #fff;
+    height: 6vh;
+}
+.pic {
+    position: absolute;
+    top: -1%;
+}
+.mapouter {
+    position:relative;
+    text-align:center;
+}
+.gmap {
+    overflow:hidden;
+    background:none;
+}
