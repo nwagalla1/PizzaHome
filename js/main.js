@@ -101,3 +101,22 @@ function updateCartTotal() {
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('cart-total-price')[0].innerText = 'Ksh' + total
 }
+
+document.querySelector('.large').addEventListener('click', function(){
+    document.querySelector('#customize').style.display = 'flex';
+})
+document.querySelector('.modal-close').addEventListener('click',function(){
+    document.querySelector('#customize').style.display = 'none';  
+})
+document.querySelector('.medium').addEventListener('click', function(){
+    document.querySelector('#customize2').style.display = 'flex';
+})
+document.querySelector('.modal-close2').addEventListener('click',function(){
+    document.querySelector('#customize2').style.display = 'none';  
+})
+document.querySelector('.small').addEventListener('click', function(){
+    document.querySelector('#customize3').style.display = 'flex';
+})
+document.querySelector('.modal-close3').addEventListener('click',function(){
+    document.querySelector('#customize3').style.display = 'none';  
+})
