@@ -229,3 +229,93 @@ h3 {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
+#customize, #customize2, #customize3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35,31,32,.8);
+    top: 0%;
+    z-index: 1;
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-body {
+    position: absolute;
+    width: 50%;
+    height: 95%;
+    background-color: #fff;
+    display: flex;
+}
+.bg, .bg2, .bg3 {
+    background-image: url('../images/large-600x593.png');
+    background-repeat: no-repeat;
+    height: 95%;
+    width: 35%;
+    backface-visibility: hidden;
+}
+.bg2 {
+    background-image: url('../images/medium-Pizza.png');
+}
+.bg3 {
+    background-image: url('../images/Garden-Pizza.png');
+}
+.product {
+    width: 65%;
+    
+}
+.product h2 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-left: 1em;
+    line-height: 1.2;
+}
+.modal-close, .modal-close2, .modal-close3 {
+    background-color: #e9ebee;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 11px;
+    top: 1%;
+}
+.extras h5{
+    color: #231f20;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.extras {
+    border-width: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #71707D;
+    margin-left: 15px;
+}
+.pt-1 {
+    margin-left: 15px;
+}
+.single-top h6 {
+    font-size: 1.3em;
+}
+.single-top * {
+    display: inline;
+    margin-left: 30px;
+    /* padding: 10px; */
+}
+.qty .count {
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+.top {
+    position: absolute;
+    left: 65%;
+}
+.text-muted {
+    color: #6b6e79;
+    font-size: 0.9rem;
+}
