@@ -223,7 +223,13 @@ h3 {
     color: #333;
     font-size: 1.1em;
 }
-
+.large, .medium, .small {
+    font-weight: bold;
+    color: blue;
+    font-size: 0.95rem;
+    cursor: pointer;
+    text-decoration: underline;
+}
 .btn-purchase {
     display: block;
     margin: 40px auto 80px auto;
