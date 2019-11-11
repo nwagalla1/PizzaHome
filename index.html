@@ -75,6 +75,23 @@
         <strong class="cart-total-title">Total</strong>
         <span class="cart-total-price">Ksh.0</span>
     </div>
+
+    <div class="col-12 text-center">
+            <h4>Enter your Delivery Address to Proceed:</h4>
+            <button class="btnn btn-primary card-cta-primary-action-lg check"><span>Checkout</span></button> 
+            <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
+            <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+            <div class="col-12 text-center">
+                <div class="mapouter">
+                <div class="gmap">
+                    <iframe width="500" height="400" id="gmap_canvas" 
+                    src="https://maps.google.com/maps?q=Moringa%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" 
+                    scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe><br><br>Google Maps Generator by 
+                    <a href="https://www.google.co.ke/maps?hl=en&tab=ll" target="_blank">Google Maps</a>
+                </div>
+                </div>
+            </div>
     <a><button class="btn btn-primary btn-purchase" type="button">Proceed</button></a>
 </section>
 <!-- End cart section -->
