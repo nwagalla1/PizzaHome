@@ -26,13 +26,15 @@ function ready() {
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
 }
 
-function purchaseClicked() {
+function purchaseClicked(e) {
     alert('Proceed to Enter your Delivery Address')
     let cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
         cartItems.removeChild(cartItems.firstChild)
     }
     updateCartTotal()
+
+    e.preventDefault();
 }
 
 function removeCartItem(event) {
